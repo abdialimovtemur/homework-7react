@@ -1,0 +1,53 @@
+.inputWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative; 
+  }
+  
+  .input {
+    width: 100%;
+    padding: 16px 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    outline: none; 
+    transition: border-color 0.3s ease-in-out;
+  
+    &:focus {
+      border-color: #007bff; 
+    }
+  
+    &::placeholder {
+      color: #aaa; 
+      opacity: 1; 
+    }
+  }
+  
+  .primary {
+    border: 1px solid #007bff;
+  }
+  
+  .secondary {
+    border: 1px solid #6c757d;
+  }
+  
+  .success {
+    border: 1px solid #28a745;
+  }
+  
+  .small {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  .medium {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  
+  .large {
+    font-size: 18px;
+    padding: 12px 18px;
+  }
+  
